@@ -1,69 +1,27 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #003366, #6699cc);
-    color: #333;
+    background-color: #FFFFFF; /* Fundo branco para suavizar */
+    color: #333333; /* Texto em cinza escuro */
 }
-
 header {
-    text-align: center;
+    background-color: #E74C3C; /* Vermelho suavizado */
     padding: 20px;
-    background-color: #003366; /* Azul escuro */
-    color: white;
-}
-
-h1 {
-    margin: 0;
-}
-
-h2 {
-    margin-top: 40px;
     text-align: center;
+    color: #FFFFFF; /* Texto branco no header */
 }
-
-.team-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+h1, h2 {
+    color: #333333; /* Títulos em cinza escuro */
+}
+section {
+    margin: 20px;
     padding: 20px;
-    background-color: rgba(230, 230, 230, 0.9); /* Fundo mais claro */
-}
-
-.team-member {
-    border: 2px solid #336699;
+    background-color: #F5F5F5; /* Fundo cinza claro nas seções */
     border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    width: 200px; /* Largura fixa dos cards */
-    text-align: center;
-    transition: transform 0.3s ease; /* Suaviza a animação */
 }
-
-.team-member img {
-    width: 100%; /* Faz com que a imagem ocupe toda a largura do card */
-    border-radius: 8px; /* Bordas arredondadas na imagem */
-}
-
-.team-member:hover {
-    transform: scale(1.05); /* Aumenta 5% quando o mouse está sobre o card */
-}
-
-.mission-section {
-    text-align: center;
-    padding: 20px;
-}
-
-.mission-image {
-    width: 80%; /* Ajusta a largura da imagem da missão */
-    border-radius: 8px; /* Bordas arredondadas */
-    margin-top: 20px;
-}
-
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #E74C3C; /* Vermelho suavizado no rodapé */
+    color: #FFFFFF; /* Texto branco no rodapé */
 }
